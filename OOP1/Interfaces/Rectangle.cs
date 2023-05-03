@@ -9,14 +9,22 @@ namespace OOP1.Interfaces
 {
     internal class Rectangle :IShape,IDrawable
     {
+        public double Length { get; set; }
+        public double width { get; set; }
+
+        public Rectangle(double x,double y)
+        {
+            Length= x;
+            width= y;
+        }
         public void ApplyColor()
         {
             Console.WriteLine("Color");
         }
 
-        public double CalcArea(double x, double y)
+        public double CalcArea()
         {
-            return x * y;
+            return Length*width;
         }
 
         public void Draw()

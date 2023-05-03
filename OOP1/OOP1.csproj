@@ -56,7 +56,7 @@
     <Compile Include="Interfaces\IShape.cs" />
     <Compile Include="Interfaces\Rectangle.cs" />
     <Compile Include="Interfaces\ShapeTester.cs" />
-    <Compile Include="Interfaces\Sqaure.cs" />
+    <Compile Include="Interfaces\Square.cs" />
     <Compile Include="Polymophism\Circle.cs" />
     <Compile Include="Polymophism\Rectangle.cs" />
     <Compile Include="Polymophism\Shape.cs" />
