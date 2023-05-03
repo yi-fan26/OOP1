@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OOP1.Encapsulation.CarTester</StartupObject>
+    <StartupObject>OOP1.Interfaces.ShapeTester</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -56,6 +56,7 @@
     <Compile Include="Interfaces\IShape.cs" />
     <Compile Include="Interfaces\Rectangle.cs" />
     <Compile Include="Interfaces\ShapeTester.cs" />
+    <Compile Include="Interfaces\Sqaure.cs" />
     <Compile Include="Polymophism\Circle.cs" />
     <Compile Include="Polymophism\Rectangle.cs" />
     <Compile Include="Polymophism\Shape.cs" />

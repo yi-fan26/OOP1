@@ -11,7 +11,7 @@ namespace OOP1.Interfaces
     {
         public void ApplyColor()
         {
-            Console.WriteLine("Color :");
+            Console.WriteLine("Color");
         }
 
         public double CalcArea(double x, double y)
